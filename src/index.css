@@ -20,9 +20,11 @@ ul li {
   box-sizing: border-box;
   margin-bottom: 10px;
   box-shadow: 8px 8px 8px grey;
+  border-radius: 8px;
 }
 ul li:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 .float-right {
   float: right;

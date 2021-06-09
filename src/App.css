@@ -14,10 +14,11 @@
 .card {
   border: 1px solid #eee;
   padding: 30px;
-  box-shadow: 0 2px 3px #ccc;
+  box-shadow: 2px 0px 9px #000;
   background-color: #efefef;
   height: 75vh;
   overflow: auto;
+  border-radius: 10px;
 }
 button {
   background-color: green;
