@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.row {
+  display: flex;
+  box-sizing: border-box;
+}
+.col {
+  width: 40%;
+  margin: 50px;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 30px;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: #efefef;
+  height: 75vh;
+  overflow: auto;
+}
+button {
+  background-color: green;
+  color: white;
+  float: left;
+  cursor: pointer;
+  padding: 3px;
+}
+h2 {
+  text-align: center;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
