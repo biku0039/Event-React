@@ -9,7 +9,7 @@ class App extends Component {
   item = {};
   page = (
     <div className="center">
-      <h2>Click the add event button</h2>
+      <h2>Click the "Add Event" button</h2>
     </div>
   );
 
@@ -77,7 +77,7 @@ class App extends Component {
       this.setState({ show: true });
       this.page = (
         <div className="center">
-          <h2>Click the add event button</h2>
+          <h2>Click the "Add Event" button</h2>
         </div>
       );
     }
