@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import "./Events.css";
 
 class AddEvents extends Component {
+  today_date = new Date().toISOString().slice(0, 10);
   constructor(props) {
     super(props);
 
     this.state = {
       name: "",
       description: "",
-      date: "",
+      date: this.today_date,
       priority: "High",
     };
+
     this.addItem = this.addItem.bind(this);
   }
 
@@ -43,7 +45,7 @@ class AddEvents extends Component {
       this.setState({
         name: "",
         description: "",
-        date: "",
+        date: this.today_date,
         priority: "High",
       });
     }
